@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-st.title("🎰 Lotto 6 - 49")
+st.title("🎰 Lotto 6 aus 49")
 
 # Profit speichern
 if "profit" not in st.session_state:
