@@ -7,7 +7,7 @@ wahl = st.sidebar.selectbox("Option wählen", ["Lotto spielen", "Über diese APP
 
 if wahl == "Über diese APP":
     st.header("Mitwirkende")
-    st.write("• Peter – Entwickler")
+    st.markdown("[• Peter Kemmeter (peterxke) – Entwickler](https://github.com/PeterxKe)")
     st.write("• Copilot – KI‑Support")
 
     st.divider()
@@ -15,6 +15,13 @@ if wahl == "Über diese APP":
     st.header("Über diese App")
     st.write("Version 1.0.0")
     st.write("Erstellt 2026")
+
+
+    st.divider()
+
+    st.header("Weitere APPs")
+    st.markdown("[• Lotto-web](https://lotto-web.streamlit.app)")
+
 else:
 
     st.title("🎰 Lotto 6 aus 49")
