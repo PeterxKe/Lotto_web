@@ -20,7 +20,7 @@ if wahl == "Über diese APP":
     st.divider()
 
     st.header("Weitere APPs")
-    st.markdown("[• Lotto-web](https://lotto-web.streamlit.app)")
+    st.markdown("[• x² Calculator](https://x2-calculator.streamlit.app/)")
 
 else:
 
