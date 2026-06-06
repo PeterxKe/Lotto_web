@@ -24,7 +24,7 @@ if wahl == "Über diese APP":
 
 else:
 
-    st.title("🎰 Lotto 6 aus 49")
+    st.title("-🎰 LLotto6 aus 49-")
     
     # Profit speichern
     if "profit" not in st.session_state:
