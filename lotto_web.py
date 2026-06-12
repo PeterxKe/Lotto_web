@@ -14,8 +14,8 @@ if wahl == "Über diese APP":
 
     st.header("Über diese App")
     st.write("Version 1.0.0")
-    st.write("Erstellt 2026")
-
+    st.write("Erstellt 01.06.2026")
+    st.write("Hochgeladen 04.06.2026")
 
     st.divider()
 
